@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    font-size: 15.625vw;
+}
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px "宋体";
+    word-wrap: break-word;
+}
+
+a,
+u,
+s,
+del {
+    color: #666;
+    text-decoration: none;
+}
+
+fieldset,
+a img,
+.bor0 {
+    border: 0;
+}
+
+i,
+em,
+b {
+    font-style: normal;
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+textarea {
+    resize: none;
+}
+
+.ind2 {
+    text-indent: 2em;
+}
+
+/*溢出隐藏出现省略号*/
+.over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*图片水平垂直居中*/
+.valign {
+    text-align: center;
+}
+
+.valign img {
+    vertical-align: middle;
+}
+
+.valign:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+/*解决margin-top向上传递问题*/
+.clear:before {
+    content: "";
+    display: table;
+}
+
+/*清除浮动*/
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+
+
+
+
+/* CSS layout */
+
+/* 默认样式 */
+html{overflow-y:scroll; overflow-x: hidden;}
+body,div,ul,li,span,img,input,form{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd{ margin:0;}
+ul,ol{padding:0;}
+
+body{ font-size:12px;font-family:"冬青黑体简体中文","微软雅黑","宋体",Arial,sans-serif;}
+a{ text-decoration:none; color:#666666; }
+li{ list-style:none; }
+img{ border:none 0;}
+input{ outline:none; border:none; background:none;}
+input,textarea,select{ margin:0; }
+input,textarea{ padding:0;}
+input::-ms-clear{display:none;}
+
+
+/* 浮动公共样式 */
+.left{ float:left; _display:inline; }
+.right{ float:right; _display:inline; }
+.clear:after{ display:block; content:''; clear:both;}
+.clear{ zoom:1;}
+
+
+
+
+
+
+

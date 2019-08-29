@@ -1,0 +1,98 @@
+.car-head{
+    width:100%;
+    height:1rem;
+    background:#ddd;
+}
+.car-head .edit{
+    width:100%;
+    height:.3rem;
+    font:.2rem/.3rem "";
+    text-align: right;
+}
+.car-head .car-title{
+    width:100%;
+    height:.7rem;
+    font:.3rem/.7rem "";
+    font-weight:900;
+    text-align: center;
+}
+
+.car-list{
+    margin-top:.2rem;
+    padding:.4rem .2rem;
+    border-bottom: #ccc 1px solid;
+}
+.car-list .car-list-tip{
+    width:100%;
+    height:1.2rem;
+   border-bottom: 1px solid #ccc;
+}
+.car-list .car-list-tip span{
+    font:.28rem/.4rem "";
+}
+.car-list .car-list-tip .right{
+    float:right;
+    color:red;
+}
+.car-list .car-list-tip .prompt{
+    font:.22rem/.4rem "";
+    color:red;
+}
+.car-list .car-goods{
+    width:100%;
+    height:1.6rem;
+    padding:.4rem 0;
+}
+.car-list .car-goods .goods-img{
+    display:inline-block;
+    width:1.5rem;
+    height:1.5rem;
+    text-align:center;
+    border:1px solid #ccc;
+}
+.car-list .car-goods .goods-img img{
+    width:1.5rem;
+    height:1.5rem;
+}
+.car-list .car-goods  .goods-des{
+    width:4rem;
+    height:1.5rem;
+    font:.22rem/.3rem "";
+    float:right;
+}
+
+.car-list .car-goods .goods-price{
+    width:100%;
+    height:.6rem;
+    font:.3rem/.6rem "";
+    color:red;
+    font-weight:900;
+    text-align: right;
+    float:right;
+
+}
+
+
+.count{
+    width:100%;
+    height:.8rem;
+    position: fixed;
+    bottom:1rem;
+    left:0;
+    right:0;
+    border:1px solid #ccc;
+}
+.count .all-count{
+    display:inline-block;
+    font:.3rem/.8rem "";
+
+}
+.count .btn-count{
+   width:1.6rem;
+   height:.8rem;
+   float:right;
+   font:.3rem/.8rem "";
+   background:red;
+   color:#fff;
+   text-align:center;
+}

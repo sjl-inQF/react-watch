@@ -1,0 +1,144 @@
+.banner{
+    width:100%;
+    height:4rem;
+    background:red;
+}
+.assort{
+    width:100%;
+    height:1.8rem;
+}
+.assort ul{
+    width:100%;
+    height:1.8rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.assort ul li{
+    width:1rem;
+    height:1rem;
+    float:left;
+  
+}
+.assort ul li img{
+    width:1rem;
+    height:1rem;
+}
+.assort-jpg{
+    width:100%;
+    height:2.2rem;
+}
+.assort-jpg img{
+    width:100%;
+    height:2.2rem;
+}
+.title{
+    width:100%;
+    height:1rem;
+    text-align:center;
+}
+.title h3{
+    font:.3rem/1rem "";
+    border-bottom:1px solid orange;
+    font-weight:900;
+}
+/* .banner{
+    width:100%;
+    height:4rem;
+}
+.banner img{
+    width:100%;
+    height:4rem;
+} */
+
+
+.list{
+    width:100%;
+    height:3rem;
+    
+}
+.list ul{
+    width:100%;
+    height:1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.list ul li{
+    width:1.2rem;
+    height:1rem;
+    font:.3rem/1rem "";
+    float:left;
+
+}
+
+.hot{
+    width:100%;
+    height:3rem;
+}
+.hot h3{
+    width:100%;
+    height:1rem;
+    font:.3rem/1rem "";
+    text-align:center;
+    font-weight:900;
+}
+.hot ul{
+    width:100%;
+    height:3rem;
+}
+.hot ul li {
+    width:100%;
+    height:3rem;
+}
+.hot ul li img{
+    width:100%;
+    height:3rem;
+}
+
+.tab{
+    margin-top:7rem;
+    width:100%;
+    height:24rem;
+    background:#eee;
+    margin-bottom: 2rem;
+}
+.tab ul{
+    width:100%; 
+  
+}
+.tab ul li{
+    width:3rem;
+    height:4rem;
+    background:#fff;
+    float:left;
+    margin:.1rem;
+   
+}
+.tab ul li .tab-img{
+    width:3rem;
+    height:3rem;
+    text-align:center;
+}
+.tab ul li .tab-img img{
+    width:2.8rem;
+    height:2.8rem;
+}
+.tab ul li .tab-title{
+    width:100%;
+}
+.tab ul li .tab-title p{
+    width:100%;
+    height:.3rem;
+    font:.24rem/.3rem "";
+}
+.tab ul li .tab-title span{
+     display:inline-block;
+    width:100%;
+    height:.3rem;
+    font:.24rem/.3rem "";
+    color:red;
+}
+

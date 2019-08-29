@@ -1,0 +1,158 @@
+.my-header{
+    width:100%;
+    height:4rem;
+    background:#000;
+}
+.my-header .set{
+    width:100%;
+    height:.6rem;
+    color:#fff;
+}
+.my-header .set span{
+    padding:.1rem;
+    font:.28rem/.6rem "";
+    float:right;
+}
+.my-header .header-logo{
+    width:100%;
+    height:1rem;
+    position: relative;
+}
+.my-header .header-logo img{
+    display: inline-block;
+    width:1rem;
+    height:1rem;
+   position: absolute;
+   top:0;
+   left:2.7rem;
+}
+.my-header .state{
+    width:100%;
+    height:.8rem;
+    font:.3rem/.8rem ""; 
+    text-align:center;
+}
+.my-header .state a{
+    color:#fff;
+}
+.my-header .state span{
+    color:#fff;
+}
+.my-header ul{
+    width:100%;
+    height:.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:.78rem;
+    text-align:center;
+}
+.my-header ul li{
+    width:33.3%;
+    height:.8rem;
+    font:.3rem/.8rem "";
+    color:#fff;
+    border:1px solid #fff;
+}
+
+.my-order{
+    width:100%;
+    height:2.4rem;
+   
+}
+.my-order .my-title{
+    width:100%;
+    height:1rem;
+    border-bottom:.1px solid #ccc;
+    background:#eee;
+}
+.my-order .my-title span{
+    font:.3rem/1rem "";
+    color:#000;
+}
+.my-order .my-title  .right{
+    width:1rem;
+    height:1rem;
+    float: right;
+    text-align:center;
+}
+.my-order .my-order-state{
+    width:100%;
+    height:1.4rem;
+}
+.my-order .my-order-state ul{
+    width:100%;
+    height:1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-order .my-order-state ul li{
+    width:25%;
+    height:1.4rem;
+    font:.3rem/1.4rem "";
+    text-align: center;
+    border-bottom:1px solid #ccc;
+}
+
+.my-order-botton{
+    width:100%;
+    margin-top:.4rem;
+    margin-bottom: 1rem;
+}
+
+.my-order-botton .my-title{
+    width:100%;
+    height:1rem;
+    border-bottom:.1px solid #ccc;
+    background:#eee;
+}
+.my-order-botton .my-title span{
+    font:.3rem/1rem "";
+    color:#000;
+}
+.my-order-botton .my-title  .right{
+    width:1rem;
+    height:1rem;
+    float: right;
+    text-align:center;
+}
+.my-order-botton .my-order-state{
+   width:100%;
+}
+.my-order-botton .my-order-state ul{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.my-order-botton .my-order-state ul li{
+    width:25%;
+    height:1rem;
+    text-align:center;
+    font:.24rem/1rem "";
+  
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:1rem;
+    background:rgba(0, 0, 0, .5);
+}
+.footer ul{
+    width:100%;
+    height:1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+}
+.footer ul li {
+    width:1.4rem;
+    height:1rem;
+    font:.3rem/1rem "";
+    color:#fff;
+}

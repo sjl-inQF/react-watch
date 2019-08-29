@@ -1,0 +1,71 @@
+.menus{
+    width:100%;
+}
+.menus .menus-left{
+    width:1.6rem;
+    float:left;
+}
+
+.menus .menus-left ul{
+    width:1.6rem;
+}
+.menus .menus-left ul li{
+    width:1.6rem;
+    height:1rem;
+    font:.3rem/1rem "";
+    text-align:center;
+    border:0.01rem solid #ccc; 
+}
+
+.menus .menus-left ul li:active{
+    color:#fff;
+    background:orangered;
+
+}
+
+
+.menus .menus-right{
+    width:4.8rem;
+    float:left;
+}
+.menus .menus-right .menus-img{
+    width:4.8rem;
+    height:2rem;
+}
+.menus .menus-right .menus-img img{
+    width:4.8rem;
+    height:2rem;
+}
+.menus .menus-right .menus-like{
+    width:4.8rem;
+    height:1rem;
+    font:.3rem/1rem "";
+    text-align:center;
+    color:skyblue;
+}
+.menus .menus-right .menus-list{
+
+}
+.menus .menus-right .menus-list ul{
+
+}
+.menus .menus-right .menus-list ul li{
+    width:1.6rem;
+    height:2.6rem;
+    float:left;
+}
+.menus .menus-right .menus-list ul li .menus-list-img{
+    width:1.6rem;
+    height:1.6rem;
+}
+.menus .menus-right .menus-list ul li .menus-list-img img{
+    width:1.6rem;
+    height:1.6rem;
+}
+.menus .menus-right .menus-list ul li span{
+    display:inline-block;
+    width:1.6rem;
+    height:1rem;
+    font:.2rem/1rem "";
+    text-align:center;
+}

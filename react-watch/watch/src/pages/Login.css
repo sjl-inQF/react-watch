@@ -1,0 +1,29 @@
+.login h3{
+    width:100%;
+    height:2rem;
+    text-align:center;
+    font:.6rem/2rem "";
+
+}
+.login input{
+    width:4rem;
+    height:.6rem;
+    border:1px solid #000;
+    margin:.2rem 1.1rem;
+    font:.3rem/.6rem "";
+}
+.login .zhu{
+    font:.26rem/.6rem "";
+    margin:.2rem 2.4rem;
+}
+.login .mess{
+     font:.26rem/.6rem "";
+    margin:.2rem 2.4rem;
+}
+.login-btn{
+    width:2rem;
+    height:.8rem;
+    background:brown;
+    border:none;
+    color:#fff;
+}
